@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
 				Element element=doc.getDocumentElement();  
 				element.normalize();  
 				  
-				NodeList nList = doc.getElementsByTagName("employee");  
+				NodeList nList = doc.getElementsByTagName("job");  
 				for (int i=0; i<nList.getLength(); i++) 
 				{  
 				  
